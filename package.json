@@ -1,0 +1,16 @@
+{
+  "name": "asana-slack-daily-summary",
+  "version": "1.0.0",
+  "description": "Daily Asana task summary sent to Slack at 6am AEST",
+  "main": "asana-slack-summary.js",
+  "scripts": {
+    "start": "node asana-slack-summary.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "node-cron": "^3.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
